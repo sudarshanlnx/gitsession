@@ -1,7 +1,7 @@
 
 **1. Introduction to GIT & GITHUB**
 •	GIT: A distributed version control system that helps track changes in source code during software development. It allows multiple developers to work on a project simultaneously without overriding each other's changes.
-•	GITHUB: A web-based platform that uses Git for version control. It offers additional features such as bug tracking, task management, and collaboration tools.
+•	GITHUB: A web-based platform that uses Git for version control. It offers additional features such as bug tracking, task management, and collaboration tools. 
 ________________________________________
 **2. Versioning**
 •	Concept: Versioning is the process of assigning unique version numbers to specific states of software. It helps in tracking changes, identifying specific sets of changes, and managing releases.
