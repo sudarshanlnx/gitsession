@@ -16,7 +16,7 @@ Commands
 
 #Local repository to git:
 
-```
+'''
  ssh-keygen
  cd .ssh
 
@@ -46,7 +46,7 @@ Commands
  git pull origin master --allow-unrelated-histories
 
  git push -u origin master
-```
+'''
 ```
 #Cloning method: 
  mkdir gitdemo2
