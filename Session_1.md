@@ -1,10 +1,9 @@
-Introduction to Git and GitHub
-________________________________________
-1. Introduction to GIT & GITHUB
+
+**1. Introduction to GIT & GITHUB**
 •	GIT: A distributed version control system that helps track changes in source code during software development. It allows multiple developers to work on a project simultaneously without overriding each other's changes.
 •	GITHUB: A web-based platform that uses Git for version control. It offers additional features such as bug tracking, task management, and collaboration tools.
 ________________________________________
-2. Versioning
+**2. Versioning**
 •	Concept: Versioning is the process of assigning unique version numbers to specific states of software. It helps in tracking changes, identifying specific sets of changes, and managing releases.
 •	Benefits:
 o	Keeps a history of changes.
@@ -12,11 +11,9 @@ o	Helps in collaborative development.
 o	Simplifies bug tracking and fixes.
 
 
-Commands 
+**3. Local repository to git:**
 
-#Local repository to git:
-
-'''
+```
  ssh-keygen
  cd .ssh
 
@@ -46,22 +43,26 @@ Commands
  git pull origin master --allow-unrelated-histories
 
  git push -u origin master
-'''
 ```
-#Cloning method: 
+
+**4. Cloning method:**
+
+```
  mkdir gitdemo2
  cd gitdemo2
  git clone git@github.com:sudarshanlnx/gitsession2.git
- ls
+
  cd gitsession2/
- ls
+
  touch pythonfile1
  touch pythonfile2
  touch pythonfile3
+
  git add .
+
  git commit -m "new_change"
+
  git push
- history
- ls
+
  git pull
 ```
